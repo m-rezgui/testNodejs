@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "mini API ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha -r esm",
+    "deploy": "serverless deploy"
+  },
+  "author": "Malek Rezgui",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-cache": "^4.2.0",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "esm": "^3.2.22",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.18.11",
+    "supertest": "^4.0.2"
+  }
+}
